@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+      .navbar{
+        min-height: 50%;
+      }
+      
+   nav .navbar-brand span{
+  position:relative;
+  top:40px;
+  left:-49px;
+  color:red;
+  font-size: xx-large;
+ }
+      .nav-fixed{
+         position: sticky !important;
+         top: 0px;
+      }
+      /* .aside-fixed{
+        position: sticky !important;
+        height: 100%;
+        width: 160px;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+                
+      } */
+  
+    </style>
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <h1>Bootstrap webpage 1</h1>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand"> 
+        <img src="./images/m-logo-2.jpg" alt="" width="150" height="100" class="d-inline-block align-text-top">
+       More<span>Bucket</span>  
+      </a>
+      
+    </div>
+    
+
+    <!--nav-items-->
+    <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+        <li class="nav-items " >
+          
+          <a href="#" class="nav-link"> <i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link"> <i class="fa-solid fa-phone"></i> service</a>
+        </li>
+        <li class="nav-items">
+           <a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!--search bar-->
+    <div >
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+     </div>
+  </nav>
+  <!--main content-->
+ <main class="row" style= "margin:0px 0px !important" >
+  <aside class="col-2 bg-secondary">
+    <h5 class="py-3 text-info">Fruits & Vetetables</h5>
+    <h6 class="py-3 ">Onion</h6>
+    <h6 class="py-3 ">tomato</h6>
+    <h6 class="py-3 ">potato</h6>
+    <h6 class="py-3 ">Carrot</h6>
+    <h6 class="py-3 ">Capsicum</h6>
+    <h6 class="py-3 ">Beans</h6>
+    <h6 class="py-3 ">Ladies Fingure</h6>
+  </aside>
+  <section class="col-10 " style="height: 100vh; overflow-y: auto;">
+    <div class="row">
+    <div class="card col-3 m-4 ">
+      <img class="class-img-top rounded" src="./images/beans.jpg" alt="beans">
+      <div class="card-body bg-light rounded">
+        <select class="form-select" aria-label="Default select example">
+          <option selected> 5 kg - 229</option>
+          <option value="1"> 1 Kg-44</option>
+          <option value="2">2 kg-88</option>
+        </select>
+        <h3 class="text-light card-title">Onions</h3>
+        <p class="test-light "><span class="h4">&#8377;229</span>MRP<del>&#8377;335</del></p>
+        <span class="badge bg-success rounded-pill">offer 30%</span>
+        <p><i class="fa-solid fa-truck"></i>Standard Delivery:Today 7:00AM-9:00PM </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="card col-3 m-4 ">
+      <img class="class-img-top rounded" src="./images/carret.png" alt="carret">
+      <div class="card-body bg-light rounded">
+        <select class="form-select" aria-label="Default select example">
+          <option selected> 5 kg - 250</option>
+          <option value="1"> 1 Kg-46</option>
+          <option value="2">2 kg-92</option>
+        </select>
+        <h3 class="text-light card-title">Carret</h3>
+        <p class="test-light "><span class="h4">&#8377;250</span>MRP<del>&#8377;355</del></p>
+        <span class="badge bg-success rounded-pill">offer 30%</span>
+        <p><i class="fa-solid fa-truck"></i>Standard Delivery:Today 7:00AM-9:00PM </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="card col-3 m-4 ">
+      <img class="class-img-top rounded" src="./images/chilli.png" alt="chilli">
+      <div class="card-body bg-light rounded">
+        <select class="form-select" aria-label="Default select example">
+          <option selected> 5 kg - 200</option>
+          <option value="1"> 1 Kg-34</option>
+          <option value="2">2 kg-69</option>
+        </select>
+        <h3 class="text-light card-title">Chilli</h3>
+        <p class="test-light "><span class="h4">&#8377;200</span>MRP<del>&#8377;300</del></p>
+        <span class="badge bg-success rounded-pill">offer 30%</span>
+        <p><i class="fa-solid fa-truck"></i>Standard Delivery:Today 7:00AM-9:00PM </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="card col-3 m-4 ">
+      <img class="class-img-top rounded" src="./images/bringel.png" alt="bringle">
+      <div class="card-body bg-light rounded">
+        <select class="form-select" aria-label="Default select example">
+          <option selected> 5 kg - 220</option>
+          <option value="1"> 1 Kg-29</option>
+          <option value="2">2 kg-58</option>
+        </select>
+        <h3 class="text-light card-title">Bringle</h3>
+        <p class="test-light "><span class="h4">&#8377;220</span>MRP<del>&#8377;335</del></p>
+        <span class="badge bg-success rounded-pill">offer 30%</span>
+        <p><i class="fa-solid fa-truck"></i>Standard Delivery:Today 7:00AM-9:00PM </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="card col-3 m-4 ">
+      <img class="class-img-top rounded" src="./images/capcican.png" alt="capcican">
+      <div class="card-body bg-light rounded">
+        <select class="form-select" aria-label="Default select example">
+          <option selected> 5 kg - 228</option>
+          <option value="1"> 1 Kg-43</option>
+          <option value="2">2 kg-85</option>
+        </select>
+        <h3 class="text-light card-title">Capcican</h3>
+        <p class="test-light "><span class="h4">&#8377;228</span>MRP<del>&#8377;335</del></p>
+        <span class="badge bg-success rounded-pill">offer 30%</span>
+        <p><i class="fa-solid fa-truck"></i>Standard Delivery:Today 7:00AM-9:00PM </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="card col-3 m-4 ">
+      <img class="class-img-top rounded" src="./images/potato.png" alt="potato">
+      <div class="card-body bg-light rounded">
+        <select class="form-select" aria-label="Default select example">
+          <option selected> 5 kg - 150</option>
+          <option value="1"> 1 Kg-25</option>
+          <option value="2">2 kg-50</option>
+        </select>
+        <h3 class="text-light card-title">Potato</h3>
+        <p class="test-light "><span class="h4">&#8377;150</span>MRP<del>&#8377;335</del></p>
+        <span class="badge bg-success rounded-pill">offer 30%</span>
+        <p><i class="fa-solid fa-truck"></i>Standard Delivery:Today 7:00AM-9:00PM </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-warning"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+ </main>
+
+  <footer style="margin: 0px 12px !important">
+  <div class="row bg-dark text-light text-center">
+      <div class=" col-sm-12 col-md-6">
+        <h3>any quarry please contact the below links</h3>
+        <p><i class="fa-brands fa-whatsapp"></i>Whatsapp</p>
+        <p><i class="fa-brands fa-instagram"></i>instagram</p>
+         <p><i class="fa-brands fa-twitter"></i>Twitter</p>
+      </div>
+      <div class=" col-sm-12 col-md-6">
+          <h3>Feel free to give any suggestions & Feedback</h3>
+          <p><input type="text" placeholder="Suggestion"></p>
+        <p><input type="text" placeholder="Feedback"></p>
+      </div>
+    </div>
+<div class="col-sm-12 text-center bg-dark text-light">
+  <p>Thank You For Visiting Our Website</p>
+</div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
